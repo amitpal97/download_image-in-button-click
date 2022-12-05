@@ -7,11 +7,11 @@
 .main_wrapper{
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width:100vw;
     height: 100vh;
-    flex-direction: column;
+    /* flex-direction: column; */
     background: linear-gradient(to right,gold,pink, red);
     /* background-color:lightgreen; */
 
@@ -39,6 +39,9 @@ button{
     color:black;
     text-shadow: 2px;
     background: grey;
+    position: absolute;
+    left: 45%;
+    top: 70%;
   
 }
 
